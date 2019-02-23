@@ -33,7 +33,7 @@ jobs:
 
       - run:
           name: 'Build Client Code(gatsby build)'
-          command: gatsby build
+          command: node_modules/.bin/gatsby build
 
       - attach_workspace:
           at: .
