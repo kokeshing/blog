@@ -31,7 +31,7 @@ const PostLink = styled(Link)`
   border-radius: 0.5rem;
 
   &:hover {
-    transition: all 0.5s ease;
+    transition: all 0.15s ease-in-out;
     color: white;
     background: #52b5f1;
   }
@@ -61,9 +61,9 @@ const PostContent = styled.div`
     margin-right: 2rem;
     margin-top: 0;
     margin-bottom: 2rem;
-    color: hsla(0, 0%, 0%, 0.6);
+    color: #00000099;
     font-style: italic;
-    border-left: 0.4rem solid hsla(0, 0%, 0%, 0.2);
+    border-left: 0.4rem solid #00000033;
   }
 `
 

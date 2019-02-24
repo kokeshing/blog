@@ -21,12 +21,12 @@ const Title = styled.h3`
   font-family: "Noto Sans JP", sans-serif;
   font-feature-settings: "palt";
   overflow: hidden;
-  transition: border-left 0.4s ease-in;
+  transition: border-left 0.15s ease-in-out;
 
   &:hover {
     color: #676767;
     border-left: solid 0.8rem #ffa500;
-    transition: border-left 0.4s ease;
+    transition: border-left 0.15s ease-in-out;
   }
 `
 

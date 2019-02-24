@@ -29,12 +29,12 @@ const TagItem = styled.li`
   }
 
   &:hover {
-    transition: all 0.5s ease;
+    transition: all 0.15s ease-in-out;
     color: white;
     background: #52b5f1;
 
     blue {
-      transition: all 0.5s ease;
+      transition: all 0.15s ease-in-out;
       color: white;
     }
   }
