@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { StaticQuery, graphql } from "gatsby"
 
+const OgImagePath = "https://kokeshing.com/icons/icon-512x512.png"
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -29,6 +31,10 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:description`,
                 content: metaDescription
+              },
+              {
+                property: `og:image`,
+                content: OgImagePath
               },
               {
                 property: `og:type`,
