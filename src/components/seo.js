@@ -60,6 +60,18 @@ function SEO({ description, lang, meta, keywords, title }) {
                   : []
               )
               .concat(meta)}
+            link={[
+              {
+                rel: "preload",
+                as: "style",
+                href: "https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese",
+                onload: "this.rel='stylesheet'"
+              },
+              {
+                rel: "stylesheet",
+                href: "https://fonts.googleapis.com/css?family=Julius+Sans+One&text=BEILNOSTU"
+              }
+            ]}
           />
         )
       }}

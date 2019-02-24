@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { TwitterShareButton } from 'react-share';
+import { FaRssSquare, FaTwitter } from "react-icons/fa"
 
 import "./Layout.css"
 
@@ -39,20 +41,60 @@ const TitleLink = styled(Link)`
   text-decoration: none;
 `
 
-const AuthorLink = styled.a`
-  box-shadow: none;
-  text-decoration: none;
-  color: #1890ff;
-`
-
 const HorizonalLine = styled.hr`
   margin-top: 3%;
   margin-bottom: 3%;
 `
 
 const Footer = styled.footer`
+  display: flex;
+  width: 100%;
   font-size: 1.6rem;
+  align-content: center;
+  justify-content: space-between;
 `
+
+const Copyright = styled.p`
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+`
+
+const AuthorLink = styled.a`
+  box-shadow: none;
+  text-decoration: none;
+  color: #1890ff;
+`
+
+const ShareBox = styled.div`
+  display: flex;
+  align-content: center;
+`
+
+const TwitterIcon = styled(FaTwitter)`
+  color: #1890ff;
+  cursor : pointer;
+  box-shadow: none;
+  text-decoration: none;
+  font-size: 2.5rem;
+`
+
+const ShareLink = styled(Link)`
+  display: block;
+  margin-right: 2.5rem;
+  margin-left: 1.0rem;
+  position: relative;
+  font-size: 2.5rem;
+  color: #1890ff;
+  box-shadow: none;
+  text-decoration: none;
+`
+
+const RssIcon = styled(FaRssSquare)`
+  position: absolute;
+  bottom: 0.5rem;
+`
+
 
 class Layout extends React.Component {
   render() {
@@ -70,11 +112,22 @@ class Layout extends React.Component {
         <main>{children}</main>
         <HorizonalLine />
         <Footer>
-          © {new Date().getFullYear()}
-          {` `}
-          <AuthorLink href="https://www.linkedin.com/in/kokeshi">
-            kokeshi
-          </AuthorLink>
+          <Copyright>
+            © {new Date().getFullYear()}
+            {` `}
+            <AuthorLink href="https://www.linkedin.com/in/kokeshi">
+              kokeshi
+            </AuthorLink>
+          </Copyright>
+
+          <ShareBox>
+            <TwitterShareButton url="https://kokeshing.com">
+              <TwitterIcon/>
+            </TwitterShareButton>
+            <ShareLink to={`/rss.xml`}>
+              <RssIcon />
+            </ShareLink>
+          </ShareBox>
         </Footer>
       </Base>
     )
