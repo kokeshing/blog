@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { TwitterShareButton } from 'react-share';
+import { TwitterShareButton } from "react-share"
 import { FaRssSquare, FaTwitter } from "react-icons/fa"
 
 import "./Layout.css"
@@ -74,7 +74,7 @@ const ShareBox = styled.div`
 
 const TwitterIcon = styled(FaTwitter)`
   color: #1890ff;
-  cursor : pointer;
+  cursor: pointer;
   box-shadow: none;
   text-decoration: none;
   font-size: 2.5rem;
@@ -83,7 +83,7 @@ const TwitterIcon = styled(FaTwitter)`
 const ShareLink = styled(Link)`
   display: block;
   margin-right: 2.5rem;
-  margin-left: 1.0rem;
+  margin-left: 1rem;
   position: relative;
   font-size: 2.5rem;
   color: #1890ff;
@@ -95,7 +95,6 @@ const RssIcon = styled(FaRssSquare)`
   position: absolute;
   bottom: 0.5rem;
 `
-
 
 class Layout extends React.Component {
   render() {
@@ -123,7 +122,7 @@ class Layout extends React.Component {
 
           <ShareBox>
             <TwitterShareButton url="https://kokeshing.com">
-              <TwitterIcon/>
+              <TwitterIcon />
             </TwitterShareButton>
             <ShareLink to={`/rss.xml`}>
               <RssIcon />
