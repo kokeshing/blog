@@ -64,6 +64,7 @@ const AuthorLink = styled.a`
   box-shadow: none;
   text-decoration: none;
   color: #1890ff;
+  font-weight: 700;
 `
 
 const ShareBox = styled.div`
