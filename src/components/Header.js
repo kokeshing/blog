@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const SiteTitle = styled.h1`
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 20%;
+  margin-bottom: 20%;
   font-size: 3rem;
   font-family: Julius Sans One, sans-serif;
   font-weight: 400;
@@ -12,12 +12,6 @@ const SiteTitle = styled.h1`
   color: #333;
   blue {
     color: #1890ff;
-  }
-
-  @media screen and (max-width: 760px) {
-    font-size: 3rem;
-    margin-top: 30px;
-    margin-bottom: 30px;
   }
 `
 
@@ -31,7 +25,7 @@ class Header extends React.Component {
   render() {
     return (
       <SiteTitle>
-        <TitleLink to={`/`}>
+        <TitleLink to={`/index.html`}>
           LOST IN <blue>BLUE</blue>
         </TitleLink>
       </SiteTitle>
