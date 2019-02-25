@@ -62,5 +62,8 @@
   },
   "pre-commit": [
     "fmt"
-  ]
+  ],
+  "devDependencies": {
+    "why-did-you-update": "^1.0.6"
+  }
 }

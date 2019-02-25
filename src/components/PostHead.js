@@ -6,7 +6,7 @@ import { GoCalendar } from "react-icons/go"
 import TagsSpace from "./TagsSpace"
 
 const Block = styled.div`
-  margin-top: 4.4rem;
+  margin-top: 40px;
 `
 
 const Title = styled.h3`
