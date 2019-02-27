@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { TwitterShareButton } from "react-share"
-import { FaRssSquare, FaTwitter } from "react-icons/fa"
+import { FaRssSquare } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 
 import Header from "./Header"
 

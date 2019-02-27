@@ -1,7 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import styled from "styled-components"
-import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa"
+import { FaArrowCircleLeft } from "react-icons/fa"
+import { FaArrowCircleLeft } from "react-icons/fa"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
