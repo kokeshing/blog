@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import kebabHash from "kebab-hash"
-import { GoTag } from "react-icons/go"
+import { FaTag } from "react-icons/fa"
 
 const TagList = styled.ul`
   display: inline-flex;
@@ -18,10 +18,10 @@ const TagList = styled.ul`
 const TagItem = styled.li`
   display: flex;
   overflow: hidden;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-left: 0.8rem;
-  padding-left: 0.4rem;
-  padding-right: 0.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   border-radius: 0.5rem;
   line-height: 2.6rem;
   blue {
@@ -46,10 +46,10 @@ const TagLink = styled(Link)`
   text-decoration: none;
 `
 
-const TagIcon = styled(GoTag)`
+const TagIcon = styled(FaTag)`
   margin-right: 0.2rem;
   position: relative;
-  top: 0.3rem;
+  top: 0.2rem;
 `
 
 class TagsSpace extends React.Component {

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import styled from "styled-components"
-import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io"
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -95,7 +95,7 @@ class BlogPostTemplate extends React.Component {
             <PostLink to={previous.fields.slug} rel="prev">
               <RefBox>
                 <div style={{ fontSize: "3rem", display: "flex" }}>
-                  <IoIosArrowDropleft />
+                  <FaArrowCircleLeft />
                 </div>
                 <div>{previous.frontmatter.title}</div>
               </RefBox>
@@ -108,7 +108,7 @@ class BlogPostTemplate extends React.Component {
               <RefBox>
                 <div>{next.frontmatter.title}</div>
                 <div style={{ fontSize: "3rem", display: "flex" }}>
-                  <IoIosArrowDropright />
+                  <FaArrowCircleRight />
                 </div>
               </RefBox>
             </PostLink>

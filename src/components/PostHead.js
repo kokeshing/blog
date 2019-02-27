@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { GoCalendar } from "react-icons/go"
+import { FaCalendarAlt } from "react-icons/fa"
 
 import TagsSpace from "./TagsSpace"
 
@@ -50,7 +50,7 @@ const PostExcerpt = styled.p`
   margin-bottom: 0rem;
 `
 
-const Calendar = styled(GoCalendar)`
+const Calendar = styled(FaCalendarAlt)`
   position: relative;
   top: 0.25rem;
   font-size: 1.6rem;

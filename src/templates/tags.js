@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
-import { GoTag } from "react-icons/go"
+import { FaTag } from "react-icons/fa"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -11,7 +11,7 @@ const TagHead = styled.h2`
   font-size: 2.2rem;
 `
 
-const TagIcon = styled(GoTag)`
+const TagIcon = styled(FaTag)`
   color: #1890ff;
   margin-right: 0.5rem;
   font-size: 2.2rem;

@@ -58,12 +58,13 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "fmt": "prettier --write src/**/*.js"
+    "fmt": "prettier --trailing-comma es5 --no-semi --write 'src/**/*.js' 'src/**/*.md'"
   },
   "pre-commit": [
     "fmt"
   ],
   "devDependencies": {
+    "gatsby-plugin-webpack-bundle-analyzer": "^1.0.4",
     "why-did-you-update": "^1.0.6"
   }
 }

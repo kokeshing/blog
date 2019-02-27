@@ -18,8 +18,10 @@ export default function HTML(props) {
           onload="this.rel='stylesheet'"
         />
         <link
+          rel="preload"
+          as="style"
           href="https://fonts.googleapis.com/css?family=Julius+Sans+One&text=BEILNOSTU"
-          rel="stylesheet"
+          onload="this.rel='stylesheet'"
         />
         {props.headComponents}
       </head>

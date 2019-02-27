@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import styled from "styled-components"
-import { GoTag } from "react-icons/go"
+import { FaTag } from "react-icons/fa"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -15,12 +15,11 @@ const Wrapper = styled.div`
   }
 `
 
-const TagIcon = styled(GoTag)`
-  color: #1890ff;
-  margin-right: 0.5rem;
+const TagIcon = styled(FaTag)`
+  margin-right: 0.2rem;
   font-size: 2.2rem;
   position: relative;
-  top: 0.4rem;
+  top: 0.3rem;
 `
 
 const TagsLink = styled(Link)`
@@ -51,7 +50,9 @@ class TagsPage extends React.Component {
           {tags.map(tag => (
             <div key={tag.fieldValue}>
               <TagsLink to={`/tags/${kebabHash(tag.fieldValue)}/`}>
-                <TagIcon />
+                <tag>
+                  <TagIcon />
+                </tag>
                 {tag.fieldValue} ({tag.totalCount})
               </TagsLink>
             </div>
