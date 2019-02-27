@@ -11,18 +11,6 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link
-          rel="preload"
-          as="style"
-          href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese"
-          onload="this.rel='stylesheet'"
-        />
-        <link
-          rel="preload"
-          as="style"
-          href="https://fonts.googleapis.com/css?family=Julius+Sans+One&text=BEILNOSTU"
-          onload="this.rel='stylesheet'"
-        />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

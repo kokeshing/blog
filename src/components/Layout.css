@@ -1,3 +1,36 @@
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Noto Sans CJK JP"),
+    local("Noto Sans JP"),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Noto Sans CJK JP"),
+    local("Noto Sans JP"),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Julius Sans One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Julius Sans One'),
+    local('JuliusSansOne-Regular'),
+    url(https://fonts.gstatic.com/l/font?kit=1Pt2g8TAX_SGgBGUi0tGOYEga5W-wGkbo-XGUvpwdmMI&skey=11a1a6d9a3450da&v=v7) format('woff2');
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
 }

@@ -30,10 +30,19 @@ const TagsLink = styled(Link)`
   padding: 0.6rem;
   border-radius: 0.5rem;
 
+  tag {
+    color: #1890ff;
+  }
+
   &:hover {
     transition: all 0.5s ease;
     color: white;
     background: #52b5f1;
+
+    tag {
+      transition: all 0.5s ease;
+      color: white;
+    }
   }
 `
 

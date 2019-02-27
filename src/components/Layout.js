@@ -10,11 +10,11 @@ import Header from "./Header"
 import "./Layout.css"
 
 const Base = styled.div`
-  margin: 0, auto, 5%;
+  margin: 0 auto 5%;
   max-width: 800px;
 
   @media screen and (max-width: 900px) {
-    margin: 0, 5%, 5%;
+    margin: 0 5% 5%;
   }
 
   @media screen and (max-width: 760px) {
@@ -23,7 +23,7 @@ const Base = styled.div`
 `
 
 const HorizonalLine = styled.hr`
-  margin: 3%, 0, 3%;
+  margin: 3% 0 3%;
 `
 
 const Footer = styled.footer`

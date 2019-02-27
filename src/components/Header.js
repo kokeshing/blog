@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const SiteTitle = styled.h1`
-  margin: 20%, 0, 20%;
+  margin: 20% 0 20%;
   font-size: 3rem;
   font-family: Julius Sans One, sans-serif;
   font-weight: 400;
