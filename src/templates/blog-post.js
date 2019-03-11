@@ -66,6 +66,10 @@ const PostContent = styled.div`
     font-style: italic;
     border-left: 0.4rem solid #00000033;
   }
+
+  .katex {
+    font-size: 2.0rem !important;
+  }
 `
 
 class BlogPostTemplate extends React.Component {
@@ -98,7 +102,9 @@ class BlogPostTemplate extends React.Component {
                 <div style={{ fontSize: "3rem", display: "flex" }}>
                   <FaArrowCircleLeft />
                 </div>
-                <div>{previous.frontmatter.title}</div>
+                <div style={{ paddingRight: "1rem", paddingLeft: "1rem", marginRight: "auto", "marginLeft": "auto" }}>
+                    {previous.frontmatter.title}
+                </div>
               </RefBox>
             </PostLink>
           ) : (
@@ -107,7 +113,9 @@ class BlogPostTemplate extends React.Component {
           {next && (
             <PostLink to={next.fields.slug} rel="next">
               <RefBox>
-                <div>{next.frontmatter.title}</div>
+                <div style={{ paddingRight: "1rem", paddingLeft: "1rem", marginRight: "auto", "marginLeft": "auto" }}>
+                    {next.frontmatter.title}
+                </div>
                 <div style={{ fontSize: "3rem", display: "flex" }}>
                   <FaArrowCircleRight />
                 </div>
