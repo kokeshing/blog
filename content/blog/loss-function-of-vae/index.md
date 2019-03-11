@@ -60,7 +60,7 @@ $$
 $$
 - KL(q_{\phi}(z|x)||p_{\theta} (z)) + E_{q_\phi(z|x)} [\log p_{\theta}(x|z)]
 $$
-を最大化するよう学習させる. $p_{\theta}$がEncoder, $q_{\phi}$がDecoderである．
+を最大化するよう学習させる. $p_{\theta}$がDecoder, $q_{\phi}$がEncoderである．
 
 符号を反転することによってVAEの損失関数である
 $$
