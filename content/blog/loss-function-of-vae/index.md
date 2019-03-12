@@ -4,9 +4,9 @@ date: "2019-03-12T01:30:57.284Z"
 tags: ["機械学習", "VAE"]
 ---
 
-解析的に求められない事後分布$p_{\theta}(z|x)$の良い近似となる$q(z|x)$を求める.
+解析的に求められない事後分布 $p_{\theta}(z|x)$ の良い近似となる $q(z|x)$ を求める.
 
-対数周辺尤度$\log p_{\theta}(x)$を変形していく.
+対数周辺尤度 $\log p_{\theta}(x)$ を変形していく.
 $$
 \begin{alignedat}{2}
     \log p_{\theta}(x) &= \log [\int p_{\theta}(x, z) dz] \\
@@ -14,9 +14,9 @@ $$
 \end{alignedat}
 $$
 
-ここで,$\int q_{\phi}(z|x)dz = 1$が成立.
+ここで, $\int q_{\phi}(z|x)dz = 1$ が成立.
 
-イエンセンの不等式
+$\int g(x) dx = 1$ となる凸関数 $g(x)$ で成り立つイエンセンの不等式
 $$
 \int_{-\infty}^{\infty} f(y(x))g(x)dx \geq f(\int_{-\infty}^{\infty} y(x)g(x) dx)
 $$
