@@ -10,8 +10,7 @@ Deconvの代わりに用いられることの多いPixelShufflerですがいろ�
 
 ## 1.
 
-[TensorFlow-ESPCN](https://github.com/kweisamx/TensorFlow-ESPCN)
-
+[TensorFlow-ESPCN](https://github.com/kweisamx/TensorFlow-ESPCN)<br>
 論文通りの実装な感じですね.
 
 ```python
@@ -36,7 +35,7 @@ def _phase_shift_1(I, r):
 
 ## 2.
 
-[ここ](https://github.com/Rayhane-mamah/Tacotron-2/blob/ab5cb08a931fc842d3892ebeb27c8b8734ddd4b8/wavenet_vocoder/models/modules.py#L604)
+[ここ](https://github.com/Rayhane-mamah/Tacotron-2/blob/ab5cb08a931fc842d3892ebeb27c8b8734ddd4b8/wavenet_vocoder/models/modules.py#L604)<br>
 tf.batch\_to\_space\_ndを使う珍しい(主観)書き方です．<br>
 tf.batch\_to\_space\_ndは理解したら詳細を書きます.
 
@@ -77,7 +76,7 @@ def _phase_shift_2(inputs, batch_size, H, W, r1, r2):
 
 ## 3.
 
-[ここ](http://musyoku.github.io/2017/03/18/Deconvolution%E3%81%AE%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%ABPixel-Shuffler%E3%82%92%E4%BD%BF%E3%81%86/)
+[ここ](http://musyoku.github.io/2017/03/18/Deconvolution%E3%81%AE%E4%BB%A3%E3%82%8F%E3%82%8A%E3%81%ABPixel-Shuffler%E3%82%92%E4%BD%BF%E3%81%86/)<br>
 この中では一番シンプルな書き方ではないでしょうか.
 1.を短く書いた感じですね．
 
@@ -102,7 +101,9 @@ def pixel_shuffler(inputs, shuffle_strides=(4, 4), out_filters=1):
 
 ## 比較
 
-というわけで以上の3つの計算時間を計測してみました．<br>
+以上の3つの計算時間を計測してみました．<br>
+同時に3つのコードが同じ結果を出力するかも確認しました.<br>
+実行結果は上から順に入力したTensorの形,1.の出力Tensorの形,2.の出力Tensorの形,3.出力のTensorの形,1.の実行時間,2.の実行時間,3.の実行時間になっています.<br>
 コードは[gist](https://gist.github.com/kokeshing/42fadb03a29eb2a8b438848d97161701)にあります.
 
 ### CPU
