@@ -40,7 +40,7 @@ const Copyright = styled.p`
   margin-bottom: 0;
 `
 
-const AuthorLink = styled.a`
+const AuthorLink = styled(Link)`
   box-shadow: none;
   text-decoration: none;
   color: #1890ff;
@@ -91,7 +91,7 @@ class Layout extends React.Component {
           <Copyright>
             © {new Date().getFullYear()}
             {` `}
-            <AuthorLink href="https://www.linkedin.com/in/kokeshi">
+            <AuthorLink to="/profile/">
               kokeshi
             </AuthorLink>
           </Copyright>
