@@ -66,6 +66,14 @@ const PostContent = styled.div`
     font-style: italic;
     border-left: 0.4rem solid #00000033;
   }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    td, th {
+        border: 1px #00000099 solid;
+    }
+  }
 
   .katex {
     font-size: 2rem !important;
