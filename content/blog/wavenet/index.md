@@ -16,8 +16,7 @@ Wavenetを実装し学習してみたので結果をまとめて置きます.
 
 --追記
 
-CORSに引っかかって再生できない音声がちらほらあるようです.修正まで[ドライブ](https://drive.google.com/drive/folders/1znsRL5HgBGO5L4aNPWIYsGr4neWXS_e8?usp=sharing)から再生していただけると幸いです.
-
+CORSに引っかかって再生できない音声がちらほらあるようです.修正するまで[ドライブ](https://drive.google.com/drive/folders/1znsRL5HgBGO5L4aNPWIYsGr4neWXS_e8?usp=sharing)から再生していただけると幸いです.
 
 <div>
 <audio src="https://drive.google.com/uc?export=download&id=1q-kjPjur5AGBdjwvweYv8ZsfymXX7MHr" controls></audio>
@@ -72,7 +71,7 @@ Tacotron-2のソースは前処理なども含めて非常に参考になりま�
 
 - [Wavenet](https://arxiv.org/abs/1609.03499)
 - [Tactron-2](https://github.com/Rayhane-mamah/Tacotron-2)
-- [y9r9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder)
+- [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder)
 - [Synthesize Human Speech with WaveNet](https://chainer-colab-notebook.readthedocs.io/ja/latest/notebook/official_example/wavenet.html)
 
 日本語音声のオープンのコーパスを用いて学習したWavenetの参考になれば幸いです.
