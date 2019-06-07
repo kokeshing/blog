@@ -14,6 +14,11 @@ Wavenetを実装し学習してみたので結果をまとめて置きます.
 左が生成音声,右がオリジナル音声です.
 オリジナル音声は[-1.0, 1.0]となるように処理してあります.
 
+--追記
+
+CORSに引っかかって再生できない音声がちらほらあるようです.修正まで[ドライブ](https://drive.google.com/drive/folders/1znsRL5HgBGO5L4aNPWIYsGr4neWXS_e8?usp=sharing)から再生していただけると幸いです.
+
+
 <div>
 <audio src="https://drive.google.com/uc?export=download&id=1q-kjPjur5AGBdjwvweYv8ZsfymXX7MHr" controls></audio>
 <audio src="https://drive.google.com/uc?export=download&id=1Qrx0jwNCUXfPP3dHAJtE-kKGQTVLufxt" controls></audio>
