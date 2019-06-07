@@ -19,20 +19,20 @@ Wavenetを実装し学習してみたので結果をまとめて置きます.
 CORSに引っかかって再生できない音声がちらほらあるようです.修正するまで[ドライブ](https://drive.google.com/drive/folders/1znsRL5HgBGO5L4aNPWIYsGr4neWXS_e8?usp=sharing)から再生していただけると幸いです.
 
 <div>
-<audio src="https://drive.google.com/uc?export=download&id=1q-kjPjur5AGBdjwvweYv8ZsfymXX7MHr" controls></audio>
-<audio src="https://drive.google.com/uc?export=download&id=1Qrx0jwNCUXfPP3dHAJtE-kKGQTVLufxt" controls></audio>
+<audio src="./VOICEACTRESS100_007_synthesis.wav" controls></audio>
+<audio src="./VOICEACTRESS100_007_rescale.wav" controls></audio>
 </div>
 <div>
-<audio src="https://drive.google.com/uc?export=download&id=1n_iCDYQX2qd4hlLCUK1mee7yN-cxhOyt" controls></audio>
-<audio src="https://drive.google.com/uc?export=download&id=1KFndd6tSdCJYVg10DeUo2KVxCmIC5keq" controls></audio>
+<audio src="./VOICEACTRESS100_010_synthesis.wav" controls></audio>
+<audio src="./VOICEACTRESS100_010_rescale.wav" controls></audio>
 </div>
 <div>
-<audio src="https://drive.google.com/uc?export=download&id=1GBXOO3RC-BgCsLgK8c46bhJmVBVHnpkj" controls></audio>
-<audio src="https://drive.google.com/uc?export=download&id=17hWbBmbUlgBaLG0LKsfVttXEsfQ181xH" controls></audio>
+<audio src="./TRAVEL1000_0033_rescale.wav" controls></audio>
+<audio src="./TRAVEL1000_0033_synthesis.wav" controls></audio>
 </div>
 <div>
-<audio src="https://drive.google.com/uc?export=download&id=1a2LoRMhP1DzOtf6mqzrkiQdpI1MzhZuV" controls></audio>
-<audio src="https://drive.google.com/uc?export=download&id=1NUQQJ59K89I2HbXe7NueQmTh2SVq90xC" controls></audio>
+<audio src="./PRECEDENT130_005_synthesis.wav" controls></audio>
+<audio src="./PRECEDENT130_005_rescale.wav" controls></audio>
 </div>
 
 この他にも合成した音声を[ドライブ](https://drive.google.com/drive/folders/1znsRL5HgBGO5L4aNPWIYsGr4neWXS_e8?usp=sharing),そのオリジナル音声を[ドライブ](https://drive.google.com/drive/folders/1-RMd-9ASlxATIFY-Rjc0bofBRHpAwDAA?usp=sharing)にそれぞれアップロードしています.
