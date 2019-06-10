@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
+import { FaTwitter } from "react-icons/fa"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
@@ -29,6 +30,15 @@ const History = styled.div`
   ul {
     list-style-type: none;
   }
+`
+
+const TwitterIcon = styled(FaTwitter)`
+  padding-left: 40px;
+  color: #1890ff;
+  cursor: pointer;
+  box-shadow: none;
+  text-decoration: none;
+  font-size: 2.5rem;
 `
 
 class Profile extends React.Component {
@@ -79,6 +89,8 @@ class Profile extends React.Component {
             </li>
           </ul>
         </History>
+        <ItemName>Contact</ItemName>
+            <a href="https://twitter.com/HokeKings"><TwitterIcon /></a>
       </Layout>
     )
   }
