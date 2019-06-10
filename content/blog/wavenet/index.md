@@ -54,7 +54,7 @@ Wavenetを実装し学習してみたので結果をまとめて置きます.
 | upsample scales | [11, 25] |
 | max time steps| 8000 |
 | batch_size | 8 |
-| train/eval/test | 6946発話/365発話/385発話 |
+| train/eval/test | 6945発話/367発話/385発話 |
 
 学習はP100を用いて1週間ほど合計1200000iter回しました.
 mu-lawのせいかところどころノイズのようなものがあり,ガウシアンにすればまた変わってきそうです.
@@ -65,7 +65,7 @@ GPUが空き次第学習・推論して確認してソースも公開します.(
 
 ### 追記
 
-WaveNetのソースを[公開しました]()
+WaveNetのソースを[公開しました](https://github.com/kokeshing/WaveNet-Estimator)
 ガウシアンの設定でも動くのは確認しているのでとりあえず公開しました.
 
 
