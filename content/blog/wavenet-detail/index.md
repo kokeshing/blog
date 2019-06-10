@@ -6,7 +6,6 @@ tags: ["Wavenet", "音声合成", "機械学習", "TensorFlow"]
 
 Wavenetの実装を公開しました.
 
-
 `card:https://github.com/kokeshing/WaveNet-Estimator`
 
 
