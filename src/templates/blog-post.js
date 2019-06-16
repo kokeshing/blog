@@ -74,6 +74,10 @@ const PostContent = styled.div`
         border: 1px #00000099 solid;
     }
   }
+  img {
+    width: 100%;
+    height: auto;
+  }
 
   .katex {
     font-size: 2rem !important;
