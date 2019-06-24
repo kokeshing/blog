@@ -5,6 +5,9 @@ tags: ["拡張機能", "Chrome"]
 ---
 
 Webサイトのコードをコピーする拡張機能を作りました.<br>
+
+`card:https://chrome.google.com/webstore/detail/quick-copy-snippet/lonpelnahhbcodeopbcjbopgfmkcfadm`
+
 どんなものかは下のgifの通りです.
 
 ![explain](./explain.gif)
@@ -16,8 +19,8 @@ GithubのReadme内のインストール手順やQiitaやはてなブログのワ
 変わりに(?)他の似たような拡張機能では可能なgithubやgistのソース丸コピーはできなくなっています.<br>
 そういうやつはダウンロードしてください.(WIP)
 
-Chromeアプリストアはまだ公開の審査中です.<br>
-もしインストールして使いたい場合は下のリポジトリのREADMEの通りインストールしてください.
+
+ソースは以下のリポジトリの通りです.
 
 `card:https://github.com/kokeshing/Quick-copy-snippet`
 
